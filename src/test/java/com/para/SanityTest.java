@@ -84,5 +84,10 @@ public void Finding_accounts() throws IOException {
 	}
 	bp.sc1("D:\\JAVAA\\list of accounts.png");	
 }
+
+@Test
+public void gittest() {
+	
+}
 }
   
