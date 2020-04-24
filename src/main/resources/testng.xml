@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="3" >
+<parameter name="username" value="vijay1991" />
+<parameter name="username" value="vijay1992" />
+<parameter name="username" value="vijay1993" />
+<parameter name="password" value="vijay1991" />
+<parameter name="password" value="vijay1992" />
+<parameter name="password" value="vijay1993" />
+<test name="ppem">
+<classes>
+<class name="para.Testpage">
+</class>
+</classes>
+</test>
+</suite>

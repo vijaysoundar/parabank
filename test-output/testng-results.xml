@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-24T11:31:42Z" name="Default suite" finished-at="2020-04-24T11:32:02Z" duration-ms="20718">
+    <groups>
+    </groups>
+    <test started-at="2020-04-24T11:31:42Z" name="Default test" finished-at="2020-04-24T11:32:02Z" duration-ms="20718">
+      <class name="com.para.SanityTest">
+        <test-method is-config="true" signature="Beforetest()[pri:0, instance:com.para.SanityTest@394a2528]" started-at="2020-04-24T11:31:42Z" name="Beforetest" finished-at="2020-04-24T11:31:55Z" duration-ms="12837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforetest -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.para.SanityTest@394a2528]" started-at="2020-04-24T11:31:55Z" name="beforemethod" finished-at="2020-04-24T11:32:02Z" duration-ms="7629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="Validation_of_login_functionality()[pri:1, instance:com.para.SanityTest@394a2528]" started-at="2020-04-24T11:32:02Z" name="Validation_of_login_functionality" finished-at="2020-04-24T11:32:02Z" duration-ms="194" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [ParaBank | Accounts Overview] but found [ParaBank | Customer Created]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [ParaBank | Accounts Overview] but found [ParaBank | Customer Created]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.para.SanityTest.Validation_of_login_functionality(SanityTest.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validation_of_login_functionality -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:com.para.SanityTest@394a2528]" started-at="2020-04-24T11:32:02Z" name="AfterMethod" finished-at="2020-04-24T11:32:02Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:com.para.SanityTest@394a2528]" started-at="2020-04-24T11:32:02Z" name="AfterTest" finished-at="2020-04-24T11:32:02Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- com.para.SanityTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
