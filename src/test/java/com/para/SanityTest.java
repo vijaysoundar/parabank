@@ -86,7 +86,7 @@ public void Finding_accounts() throws IOException {
 }
 
 @Test
-public void gittest() {
+public void gittest1() {
 	
 }
 }
